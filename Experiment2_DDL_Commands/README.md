@@ -105,7 +105,7 @@ CREATE TABLE Table_Name (
 
 **Question 1**
 --
---Create a table named Employees with the following columns:
+Create a table named Employees with the following columns:
 
 EmployeeID as INTEGER
 FirstName as TEXT
@@ -128,7 +128,7 @@ HireDate DATE
 
 **Question 2**
 ---
---Insert all employees from Former_employees into Employee
+Insert all employees from Former_employees into Employee
 
 Table attributes are EmployeeID, Name, Department, Salary
 
@@ -142,7 +142,7 @@ INSERT INTO Employee select EmployeeID,Name,Department,Salary from Former_employ
 
 **Question 3**
 ---
---Create a table named ProjectAssignments with the following constraints:
+Create a table named ProjectAssignments with the following constraints:
 AssignmentID as INTEGER should be the primary key.
 EmployeeID as INTEGER should be a foreign key referencing Employees(EmployeeID).
 ProjectID as INTEGER should be a foreign key referencing Projects(ProjectID).
@@ -167,7 +167,7 @@ foreign key (ProjectID) references Projects(ProjectID)
 
 **Question 4**
 ---
--- Insert a new product with ProductID 101, Name Laptop, Category Electronics, Price 1500, and Stock 50 into the Products table.
+Insert a new product with ProductID 101, Name Laptop, Category Electronics, Price 1500, and Stock 50 into the Products table.
 
 ```sql
 INSERT INTO Products(ProductID,Name,Category,Price,Stock) Values(101,"Laptop","Electronics",1500,50)
@@ -179,7 +179,7 @@ INSERT INTO Products(ProductID,Name,Category,Price,Stock) Values(101,"Laptop","E
 
 **Question 5**
 ---
--- Create a table named Products with the following constraints:
+Create a table named Products with the following constraints:
 ProductID as INTEGER should be the primary key.
 ProductName as TEXT should be unique and not NULL.
 Price as REAL should be greater than 0.
@@ -201,7 +201,7 @@ StockQuantity INT check(StockQuantity >0)
 
 **Question 6**
 ---
---In the Student_details table, insert a student record where some fields are NULL, another record where all fields are filled without any NULL values, and a third record where some fields are filled, and others are left as NULL.
+In the Student_details table, insert a student record where some fields are NULL, another record where all fields are filled without any NULL values, and a third record where some fields are filled, and others are left as NULL.
 
 RollNo      Name            Gender      Subject      MARKS
 ----------  ------------    ----------  ----------   ----------
@@ -223,7 +223,7 @@ VALUES(205,"Olivia Green","F",null,null),
 
 **Question 7**
 ---
---Create a table named Employees with the following constraints:
+Create a table named Employees with the following constraints:
 
 EmployeeID should be the primary key.
 FirstName and LastName should be NOT NULL.
@@ -231,7 +231,7 @@ Email should be unique.
 Salary should be greater than 0.
 DepartmentID should be a foreign key referencing the Departments table.
 ```sql
--- CREATE TABLE Employees
+CREATE TABLE Employees
 (
 EmployeeID INT primary key,
 FirstName TEXT not null,
@@ -250,10 +250,10 @@ foreign key (DepartmentID) references Departments(DepartmentID)
 
 **Question 8**
 ---
--- Write a SQL Query  to change the name of attribute "name" to "first_name"  and add mobilenumber as number ,DOB as Date in the table Companies. 
+Write a SQL Query  to change the name of attribute "name" to "first_name"  and add mobilenumber as number ,DOB as Date in the table Companies. 
 
 ```sql
---alter table Companies
+alter table Companies
 rename name to first_name;
 alter table Companies
 add mobilenumber number;
@@ -267,10 +267,10 @@ add DOB Date;
 
 **Question 9**
 ---
--- Write an SQL query to add two new columns, first_name and last_name, to the table employee. Both columns should have a data type of varchar(50).
+Write an SQL query to add two new columns, first_name and last_name, to the table employee. Both columns should have a data type of varchar(50).
 
 ```sql
--- ALTER TABLE employee
+ALTER TABLE employee
 add first_name varchar(50);
 ALTER TABLE employee
 add last_name varchar(50);
@@ -282,7 +282,7 @@ add last_name varchar(50);
 
 **Question 10**
 ---
--- Create a table named Invoices with the following constraints:
+Create a table named Invoices with the following constraints:
 
 InvoiceID as INTEGER should be the primary key.
 InvoiceDate as DATE.
@@ -290,7 +290,7 @@ DueDate as DATE should be greater than the InvoiceDate.
 Amount as REAL should be greater than 0.
 
 ```sql
--- create table Invoices
+create table Invoices
 (
 InvoiceID INT primary key,
 InvoiceDate Date,
