@@ -69,6 +69,7 @@ The Central Library wants to manage book lending and cultural events.
 ![Uploading image.png…]()
 
 
+
 ### Entities and Attributes
 
 | Entity | Attributes (PK, FK) | Notes |
