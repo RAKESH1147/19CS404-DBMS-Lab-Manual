@@ -110,7 +110,8 @@ A popular restaurant wants to manage reservations, orders, and billing.
 
 ### ER Diagram:
 *Paste or attach your diagram here*  
-![ER Diagram](er_diagram_restaurant.png)
+![Uploading image.png…]()
+
 
 ### Entities and Attributes
 
