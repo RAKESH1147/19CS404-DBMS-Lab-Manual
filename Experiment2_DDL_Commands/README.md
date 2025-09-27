@@ -210,7 +210,7 @@ RollNo      Name            Gender      Subject      MARKS
 208         Sophia Johnson  F           Science
 
 ```sql
--- INSERT INTO Student_details(RollNO,Name,Gender,Subject,Marks)
+INSERT INTO Student_details(RollNO,Name,Gender,Subject,Marks)
 VALUES(205,"Olivia Green","F",null,null),
 (207,"Liam Smith","M","Mathematics",85),
 (208,"Sophia Johnson","F","Science",null)
