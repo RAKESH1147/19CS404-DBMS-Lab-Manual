@@ -1,4 +1,4 @@
-# ER Diagram Workshop – Submission Template
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/4bd842ec-9195-4d57-a645-ffef506c62a1" /># ER Diagram Workshop – Submission Template
 
 ## Objective
 To understand and apply ER modeling concepts by creating ER diagrams for real-world applications.
@@ -23,7 +23,7 @@ FlexiFit Gym wants a database to manage its members, trainers, and fitness progr
 
 ### ER Diagram:
 *Paste or attach your diagram here*  
-![Uploading image.png…]()
+
 
 
 ### Entities and Attributes
@@ -66,7 +66,7 @@ The Central Library wants to manage book lending and cultural events.
 
 ### ER Diagram:
 *Paste or attach your diagram here*  
-![ER Diagram](er_diagram_library.png)
+
 
 ### Entities and Attributes
 
