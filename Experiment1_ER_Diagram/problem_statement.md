@@ -1,4 +1,3 @@
-
 # ER Diagram Workshop – Submission Template
 
 ## Objective
@@ -27,8 +26,6 @@ FlexiFit Gym wants a database to manage its members, trainers, and fitness progr
 - Payments tracked for memberships and sessions.
 
 ### ER Diagram:
-
-
 ![alt text](image.png)
 
 ### Entities and Attributes:
@@ -81,7 +78,6 @@ The Central Library wants to manage book lending and cultural events.
 - Overdue fines apply for late returns.
 
 ### ER Diagram:
-
 
 ![alt text](image-1.png)
 
@@ -146,8 +142,6 @@ A popular restaurant wants to manage reservations, orders, and billing.
 - Waiters assigned to serve reservations.
 
 ### ER Diagram:
-
-
 ![alt text](image-2.png)
 
 ### Entities and Attributes:
