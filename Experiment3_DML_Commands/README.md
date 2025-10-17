@@ -286,7 +286,7 @@ WHERE original_price BETWEEN 50 AND 150;
 **Output:**
 
 <img width="1225" height="365" alt="image" src="https://github.com/user-attachments/assets/8ec1acaf-7b44-404c-b8af-bde211ffc8b0" />
-**Output**
+## Output
 <img width="1913" height="1046" alt="image" src="https://github.com/user-attachments/assets/a1c722ab-3201-4e67-bdf3-b22d555f974e" />
 
 
