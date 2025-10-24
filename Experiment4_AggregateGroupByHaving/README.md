@@ -45,11 +45,11 @@ Sample table:Appointments Table
 name                              type
 --------------------          ----------
 AppointmentID               INTEGER
-PatientID                         INTEGER
-DoctorID                         INTEGER
-AppointmentDateTime   DATETIME
-Purpose                           TEXT
-Status                              TEXT
+PatientID                   INTEGER
+DoctorID                    INTEGER
+AppointmentDateTime         DATETIME
+Purpose                     TEXT
+Status                      TEXT
 ```sql
 SELECT 
     strftime('%H', AppointmentDateTime) AS HourOfDay,
