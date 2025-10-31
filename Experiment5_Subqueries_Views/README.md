@@ -343,7 +343,9 @@ where salesman_id in(
 ```
 
 **Output:**
+<img width="1279" height="537" alt="image" src="https://github.com/user-attachments/assets/d3601d0a-f005-44b5-9d68-bd9a5fb65688" />
 
+**Output:**
 <img width="1919" height="1084" alt="image" src="https://github.com/user-attachments/assets/a088b941-b6a2-40fc-b7e0-3cbd4eb1b788" />
 
 
